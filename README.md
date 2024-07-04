@@ -48,39 +48,3 @@
     </section>
 </article>
 
-<article>
-  <section>
-    <h2>4.1 Función de probabilidad</h2>
-    <p>Es una función que asigna a cada evento de un espacio muestral un número entre 0 y 1, indicando la probabilidad de que ocurra dicho evento.</p>
-  </section>
-  <section>
-    <h2>4.2 Distribución binomial</h2>
-    <p>Describe la probabilidad de obtener un número fijo de éxitos en una cantidad fija de ensayos independientes, cada uno con la misma probabilidad de éxito.</p>
-  </section>
-  <section>
-    <h2>4.3 Distribución hipergeométrica</h2>
-    <p>Modela la probabilidad de obtener un número determinado de éxitos en una muestra de tamaño fijo, sin reemplazo, de una población finita.</p>
-  </section>
-  <section>
-    <h2>4.4 Distribución de Poisson</h2>
-    <p>Describe el número de eventos que ocurren en un intervalo de tiempo o espacio fijo, cuando los eventos suceden con una tasa constante y de manera independiente.</p>
-  </section>
-  <section>
-    <h2>4.5 Distribución normal</h2>
-    <p>Es una distribución continua en forma de campana que describe datos que tienden a agruparse alrededor de un valor medio, con una dispersión simétrica a ambos lados.</p>
-  </section>
-  <section>
-    <h2>4.6 Distribución T-student</h2>
-    <p>Es una distribución continua usada principalmente para estimar la media de una población normal cuando el tamaño de la muestra es pequeño y la desviación estándar de la población es desconocida.</p>
-  </section>
-  <section>
-    <h2>4.7 Distribución Chi cuadrada</h2>
-    <p>Es una distribución continua que describe la distribución de una suma de cuadrados de variables aleatorias normales estándar independientes; se utiliza en pruebas de hipótesis y análisis de varianza.</p>
-  </section>
-  <section>
-    <h2>4.8 Distribución F</h2>
-    <p>Es una distribución continua que compara dos varianzas y se utiliza principalmente en análisis de varianza (ANOVA) y en pruebas de hipótesis para evaluar si dos poblaciones tienen varianzas iguales.</p>
-  </section>
-</article>
-
-  
