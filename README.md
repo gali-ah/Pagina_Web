@@ -47,4 +47,3 @@
         <p>Se encarga de analizar y evaluar las posibilidades que existen de que ocurra un fenómeno en determinadas circunstancias de azar.</p>
     </section>
 </article>
-
