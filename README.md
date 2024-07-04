@@ -13,39 +13,38 @@
 <article> <section> <h2>1.8 Histogramas</h2> <p>Es una representación gráfica de una distribución de frecuencias, donde se muestran barras que indican la frecuencia de cada intervalo o categoría.</p> </section> <section> <h2>2.1 Técnicas de Conteo</h2> <p>Son los métodos utilizados para determinar el número de maneras en que pueden ocurrir ciertos eventos, como el principio aditivo y el principio multiplicativo.</p> </section> <section> <h2>2.1.1 Principio aditivo</h2> <p>Establece que si un evento puede ocurrir de A maneras diferentes o de B maneras diferentes, entonces el número total de maneras en que puede ocurrir es A + B.</p> </section> <section> <h2>2.1.2 Principio multiplicativo</h2> <p>Establece que si un evento puede ocurrir de A maneras diferentes y, para cada una de esas A maneras, un segundo evento puede ocurrir de B maneras diferentes, entonces el número total de maneras en que pueden ocurrir ambos eventos es A × B.</p> </section> <section> <h2>2.1.3 Notación Factorial</h2> <p>Es la representación de un número natural n como el producto de todos los números naturales desde 1 hasta n, y se denota como n!.</p> </section> <section> <h2>2.1.4 Permutaciones</h2> <p>Son las formas en que se pueden ordenar un conjunto de elementos.</p> </section> <section> <h2>2.1.5 Combinaciones</h2> <p>Son las formas en que se pueden seleccionar un subconjunto de elementos de un conjunto, sin importar el orden.</p> </section> <section> <h2>2.1.6 Diagrama de Árbol</h2> <p>Es una representación gráfica que muestra todas las posibles secuencias de eventos o resultados de un experimento aleatorio.</p> </section> <section> <h2>2.1.7 Teorema del Binomio</h2> <p>Es una fórmula matemática que permite expandir la expresión (a + b)^n en una suma de términos que involucran potencias y coeficientes binomiales.</p> </section> <section> <h2>2.2 Teoría elemental de probabilidad</h2> <p>Es el estudio de los conceptos básicos de probabilidad, como el espacio muestral, los eventos, la unión, la intersección y los diagramas de Venn.</p> </section> <section> <h2>2.3 Probabilidad de Eventos</h2> <p>Es la medida de la posibilidad de que un evento ocurra, expresada como un número entre 0 y 1.</p> </section> <section> <h2>Espacio muestral</h2> <p>Es el conjunto de todos los posibles resultados de un experimento aleatorio.</p> </section> <section> <h2>Evento en probabilidad</h2> <p>Es cualquier subconjunto del espacio muestral, es decir, un conjunto de posibles resultados de un experimento aleatorio.</p> </section> <section> <h2>Simbología de probabilidad</h2> <p>Incluye notaciones como P(A) para la probabilidad del evento A, P(A|B) para la probabilidad de A dado B, y símbolos como ∪ (unión) y ∩ (intersección).</p> </section> <section> <h2>Unión e intersección de eventos</h2> <p>La unión de eventos A y B es el evento que ocurre cuando ocurre al menos uno de los dos eventos. La intersección de A y B es el evento que ocurre cuando ocurren ambos eventos.</p> </section> <section> <h2>Diagramas de Venn</h2> <p>Son representaciones gráficas que muestran los subconjuntos de un espacio muestral y las relaciones entre ellos.</p> </section> <section> <h2>2.4 Probabilidad con Técnicas de Conteo</h2> <p>Utiliza los principios de conteo, como el aditivo y el multiplicativo, para calcular probabilidades de eventos.</p> </section> <section> <h2>Axiomas de probabilidad</h2> <p>Son las reglas fundamentales que debe cumplir una función de probabilidad, como que la probabilidad de un evento sea un número entre 0 y 1.</p> </section> <section> <h2>Teoremas de probabilidad</h2> <p>Son resultados que se deducen de los axiomas de probabilidad, como el teorema de la probabilidad de la unión o el teorema de la probabilidad condicional.</p> </section> <section> <h2>2.5 Probabilidad condicional</h2> <p>Es la probabilidad de que ocurra un evento, dado que otro evento ya ha ocurrido.</p> </section> <section> <h2>Eventos independientes</h2> <p>Son eventos cuya ocurrencia de uno no afecta la probabilidad de ocurrencia del otro.</p> </section> <section> <h2>2.6 Ley multiplicativa de probabilidad</h2> <p>Establece que la probabilidad de que ocurran dos eventos independientes es el producto de las probabilidades individuales de cada evento.</p> </section> <section> <h2>2.7 Regla de Bayes</h2> <p>Es un teorema que permite calcular la probabilidad de un evento, dado que se conoce la probabilidad de otro evento relacionado.</p> </section> </article>
 
 
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tema 3: Variables Aleatorias</title>
-</head>
-<body>
-    <h1>Tema 3: Variables Aleatorias</h1>
-
-    <h2>3.1 Variables Aleatorias Discretas</h2>
-    <p>Solo tiene valores discretos que están relacionados con el conteo de números. Son aquellas que presentan un número contable de valores; por ejemplo, el número de personas que viven en una casa (pueden ser 3, 5 o 9).</p>
-
-    <h3>3.1.1 Distribución de Probabilidad en Forma General</h3>
-    <p>Son los posibles valores que resultan de un experimento aleatorio, describe las probabilidades de ocurrencia de los diversos resultados posibles de una variable aleatoria.</p>
-
-    <h3>3.1.2 Valor Esperado</h3>
-    <p>Se denomina media o promedio a largo plazo, lo que significa que hacer el experimento varias veces se esperaría este promedio.</p>
-
-    <h3>3.1.3 Varianza</h3>
-    <p>Es una medida de dispersión que nos permite comprender de manera más precisa los datos. Nos ayuda a entender la idea de dispersión.</p>
-
-    <h3>3.1.4 Desviación Estándar</h3>
-    <p>Mide la dispersión de los valores en torno a la media de dichos valores. En otras palabras, determina cuánto difieren los valores entre sí.</p>
-
-    <h3>3.1.5 Función Acumulada</h3>
-    <p>La función acumulada nos dice cuál es la probabilidad acumulada de que una variable aleatoria X sea menor o igual a cierto valor x.</p>
-
-    <h2>3.2 Variables Aleatorias Continuas</h2>
-    <p>Es aquella que puede tomar cualquier valor dentro de un rango real sin límites precisos.</p>
-
-    <h3>3.2.1 Cálculos de Probabilidad</h3>
-    <p>Se encarga de analizar y evaluar las posibilidades que existen de que ocurra un fenómeno en determinadas circunstancias de azar.</p>
-</body>
-</html>
-
+<article>
+    <section>
+        <h2>3.1 Variables Aleatorias Discretas</h2>
+        <p>Solo tiene valores discretos que están relacionados con el conteo de números. Son aquellas que presentan un número contable de valores; por ejemplo, el número de personas que viven en una casa (pueden ser 3, 5 o 9).</p>
+    </section>
+    <section>
+        <h3>3.1.1 Distribución de Probabilidad en Forma General</h3>
+        <p>Son los posibles valores que resultan de un experimento aleatorio, describe las probabilidades de ocurrencia de los diversos resultados posibles de una variable aleatoria.</p>
+    </section>
+    <section>
+        <h3>3.1.2 Valor Esperado</h3>
+        <p>Se denomina media o promedio a largo plazo, lo que significa que hacer el experimento varias veces se esperaría este promedio.</p>
+    </section>
+    <section>
+        <h3>3.1.3 Varianza</h3>
+        <p>Es una medida de dispersión que nos permite comprender de manera más precisa los datos. Nos ayuda a entender la idea de dispersión.</p>
+    </section>
+    <section>
+        <h3>3.1.4 Desviación Estándar</h3>
+        <p>Mide la dispersión de los valores en torno a la media de dichos valores. En otras palabras, determina cuánto difieren los valores entre sí.</p>
+    </section>
+    <section>
+        <h3>3.1.5 Función Acumulada</h3>
+        <p>La función acumulada nos dice cuál es la probabilidad acumulada de que una variable aleatoria X sea menor o igual a cierto valor x.</p>
+    </section>
+    <section>
+        <h2>3.2 Variables Aleatorias Continuas</h2>
+        <p>Es aquella que puede tomar cualquier valor dentro de un rango real sin límites precisos.</p>
+    </section>
+    <section>
+        <h3>3.2.1 Cálculos de Probabilidad</h3>
+        <p>Se encarga de analizar y evaluar las posibilidades que existen de que ocurra un fenómeno en determinadas circunstancias de azar.</p>
+    </section>
+</article>
 
