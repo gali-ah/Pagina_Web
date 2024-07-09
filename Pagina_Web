@@ -26,5 +26,65 @@
 
     <h3> 3.2.1 Cálculos de Probabilidad</h3>
     <p>Se encarga de analizar y evaluar las posibilidades que existen de que ocurra un fenómeno en determinadas circunstancias de azar.</p>
+
+    <h1>Distribuciones de Probabilidad</h1>
+
+  <section>
+    <h2>4.1 Función de probabilidad</h2>
+    <p>
+      En teoría de la probabilidad y estadística, la función de probabilidad de una variable aleatoria discreta $X$ asigna a cada valor posible $x$ de $X$ una probabilidad $P(X = x)$. La función de probabilidad debe cumplir con las siguientes propiedades:
+    </p>
+    <ul>
+      <li>
+        $P(x) \ge 0$ para todo valor posible $x$ de $X$.
+      </li>
+      <li>
+        $\sum_{x} P(x) = 1$.
+      </li>
+    </ul>
+    <p>
+      En el caso de una variable aleatoria continua $X$, la función de probabilidad se reemplaza por la función de densidad de probabilidad (FDP) $f(x)$. La FDP representa la probabilidad de que $X$ tome un valor dentro de un intervalo infinitesimalmente pequeño. La FDP debe cumplir con las siguientes propiedades:
+    </p>
+    <ul>
+      <li>
+        $f(x) \ge 0$ para todo valor posible $x$ de $X$.
+      </li>
+      <li>
+        $\int_{-\infty}^{\infty} f(x) \, dx = 1$.
+      </li>
+    </ul>
+    <p>
+      **Cuándo usarla:** La función de probabilidad o la función de densidad de probabilidad se utilizan para determinar la probabilidad de que una variable aleatoria tome un valor específico o caiga dentro de un intervalo específico.
+    </p>
+    <p>
+      **Fórmula:** La fórmula específica de la función de probabilidad o la función de densidad de probabilidad depende del tipo de distribución de probabilidad que se esté considerando. Algunas de las distribuciones de probabilidad más comunes y sus fórmulas se presentan a continuación.
+    </p>
+  </section>
+  <section>
+    <h2>4.2 Distribución binomial</h2>
+    <p>
+      La distribución binomial describe la probabilidad de obtener $k$ éxitos en $n$ ensayos independientes, donde cada ensayo tiene una probabilidad fija $p$ de éxito.
+    </p>
+    <p>
+      **Fórmula:** ( reemplazar con imagen o script para mostrar la fórmula)
+    </p>
+    <p>
+      **Cuándo usarla:** La distribución binomial se utiliza cuando se tiene una serie de ensayos independientes con la misma probabilidad de éxito en cada ensayo. Algunos ejemplos de situaciones en las que se puede utilizar la distribución binomial incluyen:
+    </p>
+    <ul>
+      <li>
+        Lanzar una moneda 5 veces y contar el número de caras.
+      </li>
+      <li>
+        Seleccionar una muestra aleatoria de 10 estudiantes de una clase y contar el número de estudiantes que aprueban un examen.
+      </li>
+      <li>
+        Realizar 20 experimentos de laboratorio y contar el número de experimentos que resultan en un resultado exitoso.
+      </li>
+    </ul>
+  </section>
+
+  </body>
+</html>
 </body>
 </html>
