@@ -3,290 +3,336 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Web de Estadística</title>
+    <title>Página Web</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            margin: 0;
+            margin: 20px;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
         }
         article {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 10px;
         }
         h2 {
-            color: #2c3e50;
-            border-bottom: 2px solid #e74c3c;
-            padding-bottom: 5px;
+            color: #333;
+            font-size: 1.5em;
         }
-        p, ul {
-            margin: 10px 0;
+        h3 {
+            color: #666;
+            font-size: 1.2em;
+        }
+        p {
+            color: #555;
         }
         ul {
+            color: #777;
             padding-left: 20px;
         }
-        ul li {
-            margin-bottom: 5px;
+        section {
+            margin-bottom: 15px;
         }
     </style>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script type="text/javascript" id="MathJax-script" async
-        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
 </head>
 <body>
 
-<article> 
-    <section> 
-        <h2>1.1 Teoría de decisión</h2> 
+<article>
+    <section>
+        <h2>1.1 Teoría de decisión</h2>
         <p>Es la forma en la que se toman decisiones, especialmente cuando hay más de una opción posible. Ayuda a elegir la mejor opción basándose en información y cálculos.</p>
-        <ul>
-            <li>Considera múltiples opciones y resultados.</li>
-            <li>Utiliza métodos cuantitativos para evaluar decisiones.</li>
-            <li>Aplica tanto en situaciones de certeza como de incertidumbre.</li>
-        </ul>
-    </section> 
-    <section> 
-        <h2>Población</h2> 
+    </section>
+    <section>
+        <h2>Población</h2>
         <p>Es el conjunto de todas las cosas o personas que se están estudiando. Puede ser un grupo de personas, animales, objetos, etc.</p>
-        <ul>
-            <li>Población finita: tiene un número limitado de elementos.</li>
-            <li>Población infinita: tiene un número ilimitado de elementos.</li>
-        </ul>
-    </section> 
-    <section> 
-        <h2>Muestra aleatoria</h2> 
+    </section>
+    <section>
+        <h2>Muestra aleatoria</h2>
         <p>Es una parte pequeña de la población que se selecciona de manera imparcial y al azar. Esto permite estudiar la población sin tener que analizar todo el grupo.</p>
-        <ul>
-            <li>Permite inferencias estadísticas sobre la población.</li>
-            <li>Debe ser representativa para obtener resultados válidos.</li>
-        </ul>
-    </section> 
-    <section> 
-        <h2>Parámetros aleatorios</h2> 
+    </section>
+    <section>
+        <h2>Parámetros aleatorios</h2>
         <p>Son valores que se eligen al azar para representar características de la población. Estos valores pueden cambiar cada vez que se hace un análisis o cálculo.</p>
-        <ul>
-            <li>Pueden incluir la media, la varianza, etc.</li>
-            <li>Utilizados en modelos probabilísticos y simulaciones.</li>
-        </ul>
-    </section> 
-</article>
-
-<article> 
-    <section> 
-        <h2>1.2 Descripción de datos</h2> 
-        <p>Es la forma de organizar y presentar los datos de manera clara y comprensible. Puede ser con datos agrupados o no agrupados.</p>
-        <ul>
-            <li>Ayuda a identificar patrones y tendencias.</li>
-            <li>Incluye tablas, gráficos y resúmenes numéricos.</li>
-        </ul>
-    </section> 
-    <section> 
-        <h2>Datos agrupados y no agrupados</h2> 
-        <p>Los datos agrupados se organizan en grupos o categorías. Los datos no agrupados se presentan de forma individual, sin agruparlos.</p>
-        <ul>
-            <li>Datos agrupados: facilita el análisis de grandes cantidades de datos.</li>
-            <li>Datos no agrupados: proporciona información detallada de cada dato.</li>
-        </ul>
-    </section> 
-    <section> 
-        <h2>Frecuencia de clase</h2> 
-        <p>Es el número de veces que se repite cada grupo o categoría en los datos agrupados.</p>
-        <ul>
-            <li>Se utiliza en la construcción de histogramas.</li>
-            <li>Ayuda a entender la distribución de los datos.</li>
-        </ul>
-    </section> 
-    <section> 
-        <h2>Frecuencia relativa</h2> 
-        <p>Es la proporción o porcentaje que representa cada grupo o categoría en el total de los datos.</p>
-        <ul>
-            <li>Se calcula dividiendo la frecuencia de clase por el total de datos.</li>
-            <li>Útil para comparar la importancia relativa de cada clase.</li>
-        </ul>
-    </section> 
-    <section> 
-        <h2>Punto medio</h2> 
-        <p>Es el valor que se encuentra en el centro de cada grupo o categoría de los datos agrupados.</p>
-        <ul>
-            <li>Se utiliza para representar el valor típico de una clase.</li>
-            <li>Fórmula: \((\text{Límite inferior} + \text{Límite superior}) / 2\).</li>
-        </ul>
-    </section> 
-    <section> 
-        <h2>Límites</h2> 
-        <p>Son los valores máximo y mínimo de cada grupo o categoría de los datos agrupados.</p>
-        <ul>
-            <li>Límite inferior: el valor más pequeño de la clase.</li>
-            <li>Límite superior: el valor más grande de la clase.</li>
-        </ul>
-    </section> 
-</article>
-
-<article> 
-    <section> 
-        <h2>1.3 Medidas de tendencia central</h2> 
-        <p>Son valores que representan el centro o el promedio de un conjunto de datos.</p> 
-        <ul>
-            <li>Incluyen la media, la mediana y la moda.</li>
-            <li>Proporcionan una idea general del valor típico de los datos.</li>
-        </ul>
-    </section> 
-    <section> 
-        <h2>Media aritmética</h2> 
-        <p>Es el valor que se obtiene al sumar todos los datos y dividirlo entre el número total de datos.</p>
-        <p>\[
-            \bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
-        \]</p>
-        <ul>
-            <li>Sensible a valores atípicos (outliers).</li>
-            <li>Utilizada en muchas aplicaciones estadísticas.</li>
-        </ul> 
-    </section> 
-    <section> 
-        <h2>Media geométrica</h2> 
-        <p>Es el valor que se obtiene al multiplicar todos los datos y luego tomar la raíz del número total de datos.</p>
-        <p>\[
-            G = \left( \prod_{i=1}^{n} x_i \right)^{\frac{1}{n}}
-        \]</p>
-        <ul>
-            <li>Menos afectada por valores atípicos.</li>
-            <li>Útil para datos que representan tasas de crecimiento.</li>
-        </ul> 
-    </section> 
-    <section> 
-        <h2>Media ponderada</h2> 
-        <p>Es el valor que se obtiene al sumar los productos de cada dato por su peso o importancia, y luego dividir por la suma de los pesos.</p>
-        <p>\[
-            \bar{x}_p = \frac{\sum_{i=1}^{n} w_i x_i}{\sum_{i=1}^{n} w_i}
-        \]</p>
-        <ul>
-            <li>Considera la importancia relativa de cada dato.</li>
-            <li>Útil en decisiones financieras y evaluaciones.</li>
-        </ul> 
-    </section> 
-    <section> 
-        <h2>Mediana</h2> 
-        <p>Es el valor que se encuentra en el centro del conjunto de datos, cuando se ordenan de menor a mayor.</p>
-        <ul>
-            <li>No se ve afectada por valores extremos.</li>
-            <li>Divide el conjunto de datos en dos mitades iguales.</li>
-        </ul> 
-    </section> 
-    <section> 
-        <h2>Moda</h2> 
-        <p>Es el valor que se repite con más frecuencia en el conjunto de datos.</p>
-        <ul>
-            <li>Puede haber más de una moda (multimodal).</li>
-            <li>Útil para datos categóricos y cualitativos.</li>
-        </ul> 
-    </section> 
-</article>
-
-<article> 
-    <section> 
-        <h2>2.1 Principios de conteo</h2> 
-        <p>Son reglas utilizadas para contar el número de maneras en que pueden ocurrir diferentes eventos.</p>
-        <ul>
-            <li>Principio aditivo y multiplicativo.</li>
-            <li>Permutaciones y combinaciones.</li>
-        </ul> 
-    </section> 
-    <section> 
-        <h2>2.1.1 Principio aditivo</h2> 
-        <p>Establece que si un evento puede ocurrir de \( A \) maneras diferentes y otro evento puede ocurrir de \( B \) maneras diferentes, entonces el número total de maneras en que uno u otro evento puede ocurrir es la suma de \( A \) y \( B \).</p>
-        <ul>
-            <li>\( A + B \).</li>
-            <li>Utilizado cuando los eventos son mutuamente excluyentes.</li>
-        </ul> 
-    </section> 
-    <section> 
-        <h2>2.1.2 Principio multiplicativo</h2> 
-        <p>Establece que si un evento puede ocurrir de \( A \) maneras diferentes y otro evento puede ocurrir de \( B \) maneras diferentes, entonces el número total de maneras en que ambos eventos pueden ocurrir juntos es el producto de \( A \) y \( B \).</p>
-        <ul>
-            <li>\( A \times B \).</li>
-            <li>Utilizado cuando los eventos son independientes.</li>
-        </ul> 
-    </section>
-    <section> 
-        <h2>2.2 Permutaciones</h2> 
-        <p>Son las diferentes formas en que se pueden ordenar un conjunto de objetos. Se utilizan para calcular el número total de ordenaciones posibles de un conjunto de objetos.</p>
-        <ul>
-            <li>Orden importante.</li>
-            <li>\( P(n, r) = \frac{n!}{(n-r)!} \).</li>
-        </ul> 
-    </section>
-    <section> 
-        <h2>2.3 Combinaciones</h2> 
-        <p>Son las diferentes formas en que se pueden seleccionar un conjunto de objetos sin importar el orden. Se utilizan para calcular el número total de subconjuntos posibles de un conjunto de objetos.</p>
-        <ul>
-            <li>Orden no importante.</li>
-            <li>\( C(n, r) = \frac{n!}{r!(n-r)!} \).</li>
-        </ul> 
     </section>
 </article>
 
 <article>
     <section>
-        <h2>3.1 Probabilidad</h2>
-        <p>Es una medida de la certeza de que ocurra un evento. Va de 0 (imposible) a 1 (seguro). Se calcula como el número de resultados favorables dividido por el número total de resultados posibles.</p>
-        <p>\[
-            P(A) = \frac{\text{Número de resultados favorables}}{\text{Número total de resultados posibles}}
-        \]</p>
-        <ul>
-            <li>Probabilidad teórica: basada en el razonamiento.</li>
-            <li>Probabilidad empírica: basada en la observación.</li>
-        </ul>
+        <h2>1.2 Descripción de datos</h2>
+        <p>Es la forma de organizar y presentar los datos de manera clara y comprensible. Puede ser con datos agrupados o no agrupados.</p>
     </section>
     <section>
-        <h2>3.2 Eventos independientes</h2>
-        <p>Dos eventos son independientes si la ocurrencia de uno no afecta la ocurrencia del otro. La probabilidad conjunta de dos eventos independientes es el producto de sus probabilidades individuales.</p>
-        <p>\[
-            P(A \cap B) = P(A) \cdot P(B)
-        \]</p>
-        <ul>
-            <li>No hay influencia mutua.</li>
-            <li>Ejemplo: lanzar dos monedas.</li>
-        </ul>
+        <h2>Datos agrupados y no agrupados</h2>
+        <p>Los datos agrupados se organizan en grupos o categorías. Los datos no agrupados se presentan de forma individual, sin agruparlos.</p>
     </section>
     <section>
-        <h2>3.3 Eventos dependientes</h2>
-        <p>Dos eventos son dependientes si la ocurrencia de uno afecta la ocurrencia del otro. La probabilidad conjunta de dos eventos dependientes se calcula ajustando la probabilidad del segundo evento.</p>
-        <p>\[
-            P(A \cap B) = P(A) \cdot P(B|A)
-        \]</p>
-        <ul>
-            <li>Hay influencia mutua.</li>
-            <li>Ejemplo: sacar cartas de una baraja sin reemplazo.</li>
-        </ul>
+        <h2>Frecuencia de clase</h2>
+        <p>Es el número de veces que se repite cada grupo o categoría en los datos agrupados.</p>
     </section>
     <section>
-        <h2>3.4 Probabilidad condicional</h2>
-        <p>Es la probabilidad de que ocurra un evento dado que otro evento ya ha ocurrido. Se calcula como la probabilidad conjunta dividida por la probabilidad del evento dado.</p>
-        <p>\[
-            P(B|A) = \frac{P(A \cap B)}{P(A)}
-        \]</p>
-        <ul>
-            <li>Requiere información adicional.</li>
-            <li>Ejemplo: probabilidad de que llueva dado que hay nubes.</li>
-        </ul>
+        <h2>Frecuencia relativa</h2>
+        <p>Es la proporción o porcentaje que representa cada grupo o categoría en el total de los datos.</p>
     </section>
     <section>
-        <h2>3.5 Teorema de Bayes</h2>
-        <p>Es una fórmula que permite actualizar la probabilidad de un evento basado en nueva información. Relaciona las probabilidades condicionales inversas.</p>
-        <p>\[
-            P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
-        \]</p>
+        <h2>Punto medio</h2>
+        <p>Es el valor que se encuentra en el centro de cada grupo o categoría de los datos agrupados.</p>
+    </section>
+    <section>
+        <h2>Límites</h2>
+        <p>Son los valores máximo y mínimo de cada grupo o categoría de los datos agrupados.</p>
+    </section>
+</article>
+
+<article>
+    <section>
+        <h2>1.3 Medidas de tendencia central</h2>
+        <p>Son valores que representan el centro o el promedio de un conjunto de datos.</p>
+    </section>
+    <section>
+        <h2>Media aritmética</h2>
+        <p>Es el valor que se obtiene al sumar todos los datos y dividirlo entre el número total de datos.</p>
+    </section>
+    <section>
+        <h2>Media geométrica</h2>
+        <p>Es el valor que se obtiene al multiplicar todos los datos y luego tomar la raíz del número total de datos.</p>
+    </section>
+    <section>
+        <h2>Media ponderada</h2>
+        <p>Es el valor que se obtiene al sumar los productos de cada dato por su peso o importancia, y luego dividir por la suma de los pesos.</p>
+    </section>
+    <section>
+        <h2>Mediana</h2>
+        <p>Es el valor que se encuentra en el centro del conjunto de datos, cuando se ordenan de menor a mayor.</p>
+    </section>
+    <section>
+        <h2>Moda</h2>
+        <p>Es el valor que se repite con más frecuencia en el conjunto de datos.</p>
+    </section>
+    <section>
+        <h2>Medidas de dispersión</h2>
+        <p>Son valores que indican cuán alejados están los datos del centro o promedio.</p>
+    </section>
+    <section>
+        <h2>Varianza</h2>
+        <p>Es el promedio de los cuadrados de las diferencias entre cada dato y la media.</p>
+    </section>
+    <section>
+        <h2>Desviación estándar</h2>
+        <p>Es la raíz cuadrada de la varianza, y representa cuánto se alejan los datos del promedio.</p>
+    </section>
+    <section>
+        <h2>Desviación media</h2>
+        <p>Es el promedio de las diferencias absolutas entre cada dato y la media.</p>
+    </section>
+    <section>
+        <h2>Desviación mediana</h2>
+        <p>Es el promedio de las diferencias absolutas entre cada dato y la mediana.</p>
+    </section>
+    <section>
+        <h2>Rango</h2>
+        <p>Es la diferencia entre el valor más grande y el valor más pequeño de un conjunto de datos.</p>
+    </section>
+</article>
+
+<article>
+    <section>
+        <h2>1.4 Parámetros para datos agrupados</h2>
+        <p>Son los valores que se calculan para describir las características de un conjunto de datos agrupados, como el punto medio, los límites y la frecuencia de cada grupo.</p>
+    </section>
+    <section>
+        <h2>1.5 Distribución de frecuencias</h2>
+        <p>Es la forma en que se presentan los datos agrupados, mostrando la frecuencia de cada grupo o categoría.</p>
+    </section>
+    <section>
+        <h2>1.6 Técnicas de agrupación de datos</h2>
+        <p>Son los métodos utilizados para organizar los datos individuales en grupos o categorías, como por ejemplo, agrupar por intervalos de edad o por rango de ingresos.</p>
+    </section>
+    <section>
+        <h2>1.7 Técnicas de muestreo</h2>
+        <p>Son los métodos utilizados para seleccionar una parte representativa (muestra) de una población, con el fin de estudiarla sin tener que analizar toda la población.</p>
+    </section>
+</article>
+
+<article>
+    <section>
+        <h2>1.8 Histogramas</h2>
+        <p>Es una representación gráfica de una distribución de frecuencias, donde se muestran barras que indican la frecuencia de cada intervalo o categoría.</p>
+    </section>
+    <section>
+        <h2>2.1 Técnicas de Conteo</h2>
+        <p>Son los métodos utilizados para determinar el número de maneras en que pueden ocurrir ciertos eventos, como el principio aditivo y el principio multiplicativo.</p>
+    </section>
+    <section>
+        <h2>2.1.1 Principio aditivo</h2>
+        <p>Establece que si un evento puede ocurrir de A maneras diferentes o de B maneras diferentes, entonces el número total de maneras en que puede ocurrir es A + B.</p>
+    </section>
+    <section>
+        <h2>2.1.2 Principio multiplicativo</h2>
+        <p>Establece que si un evento puede ocurrir de A maneras diferentes y, para cada una de esas A maneras, un segundo evento puede ocurrir de B maneras diferentes, entonces el número total de maneras en que pueden ocurrir ambos eventos es A × B.</p>
+    </section>
+    <section>
+        <h2>2.1.3 Notación Factorial</h2>
+        <p>Es la representación matemática de un número entero positivo n, que es el producto de todos los enteros positivos menores o iguales a n.</p>
+    </section>
+</article>
+
+<article>
+    <section>
+        <h2>2.2 Permutaciones</h2>
+        <p>Son el número de arreglos posibles de un conjunto de objetos, donde el orden de los objetos importa.</p>
+    </section>
+    <section>
+        <h2>2.2.1 Permutaciones con repetición</h2>
+        <p>Son el número de arreglos posibles de un conjunto de objetos, donde algunos objetos pueden aparecer más de una vez y el orden de los objetos importa.</p>
+    </section>
+    <section>
+        <h2>2.3 Combinaciones</h2>
+        <p>Son el número de selecciones posibles de un subconjunto de objetos, donde el orden de los objetos no importa.</p>
+    </section>
+    <section>
+        <h2>2.3.1 Coeficientes binomiales</h2>
+        <p>Representan el número de combinaciones posibles de n elementos tomados de k en k.</p>
+    </section>
+    <section>
+        <h2>2.3.2 Triángulo de Pascal</h2>
+        <p>Es una disposición triangular de los coeficientes binomiales, donde cada número es la suma de los dos números directamente encima de él en la fila anterior.</p>
+    </section>
+    <section>
+        <h2>3.1 Tipos de variables</h2>
+        <p>Son características o cualidades que pueden ser medidas o categorizadas. Pueden ser cuantitativas o cualitativas.</p>
+    </section>
+    <section>
+        <h2>3.1.1 Variables cuantitativas</h2>
+        <p>Son variables que se pueden medir en términos numéricos. Pueden ser discretas o continuas.</p>
+    </section>
+</article>
+
+<article>
+    <section>
+        <h2>3.1.2 Variables cualitativas</h2>
+        <p>Son variables que describen cualidades o características que no se pueden medir numéricamente. Pueden ser nominales u ordinales.</p>
+    </section>
+    <section>
+        <h2>3.2 Escalas de medición</h2>
+        <p>Son las diferentes maneras en que se pueden medir las variables, como la escala nominal, ordinal, de intervalo y de razón.</p>
+    </section>
+    <section>
+        <h2>3.3 Diagramas de dispersión</h2>
+        <p>Es una representación gráfica de pares de datos en un plano cartesiano, donde cada punto representa una observación y su posición en los ejes indica los valores de las dos variables.</p>
+    </section>
+    <section>
+        <h2>3.4 Covarianza</h2>
+        <p>Es una medida del grado en que dos variables aleatorias cambian juntas. Indica la dirección de la relación lineal entre las variables.</p>
+    </section>
+    <section>
+        <h2>3.5 Coeficiente de correlación</h2>
+        <p>Es una medida que describe la fuerza y la dirección de una relación entre dos variables. Puede ser positivo, negativo o neutro.</p>
+    </section>
+    <section>
+        <h2>3.5.1 Correlación de Pearson</h2>
+        <p>Es una medida de la correlación lineal entre dos variables cuantitativas. Su valor oscila entre -1 y 1, donde 1 indica una correlación positiva perfecta, -1 indica una correlación negativa perfecta, y 0 indica ausencia de correlación.</p>
+    </section>
+    <section>
+        <h2>3.5.2 Correlación de Spearman</h2>
+        <p>Es una medida de la correlación entre dos variables ordinales o cuantitativas. Evalúa la relación monotónica entre dos variables, lo que significa que cuando una variable aumenta, la otra también tiende a aumentar (o disminuir).</p>
+    </section>
+</article>
+
+<article>
+    <section>
+        <h2>3.6 Regresión lineal simple</h2>
+        <p>Es una técnica estadística que modela la relación lineal entre una variable dependiente (respuesta) y una variable independiente (predictora).</p>
+    </section>
+    <section>
+        <h2>3.6.1 Ecuación de la recta de regresión</h2>
+        <p>Es la expresión matemática que representa la relación entre la variable dependiente y la variable independiente en un modelo de regresión lineal simple.</p>
+    </section>
+    <section>
+        <h2>3.7 Regresión lineal múltiple</h2>
+        <p>Es una técnica estadística que modela la relación lineal entre una variable dependiente (respuesta) y dos o más variables independientes (predictoras).</p>
+    </section>
+    <section>
+        <h2>3.7.1 Coeficiente de determinación (R^2)</h2>
+        <p>Es una medida que indica cuánto de la variabilidad total de la variable dependiente puede explicarse por el modelo de regresión. Su valor oscila entre 0 y 1, donde 1 indica una ajuste perfecto del modelo.</p>
+    </section>
+    <section>
+        <h2>3.8 Análisis de regresión</h2>
+        <p>Es el proceso de examinar la relación entre una variable dependiente y una o más variables independientes, utilizando técnicas estadísticas para determinar la fuerza y la naturaleza de esta relación.</p>
+    </section>
+    <section>
+        <h2>4.1 Función de probabilidad</h2>
+        <p>En teoría de la probabilidad y estadística, la función de probabilidad de una variable aleatoria discreta \( X \) asigna a cada valor posible \( x \) de \( X \) una probabilidad \( P(X = x) \).</p>
         <ul>
-            <li>Utilizado en inferencia estadística.</li>
-            <li>Aplicaciones en medicina, finanzas, etc.</li>
+            <li>\( P(x) \geq 0 \) para todo valor posible \( x \) de \( X \).</li>
+            <li>\( \sum_{x} P(x) = 1 \).</li>
         </ul>
+        <p><strong>Cuándo usarla:</strong> Determina la probabilidad de que una variable aleatoria discreta tome un valor específico.</p>
+        <p><strong>Fórmula:</strong> Depende del tipo de distribución de probabilidad que se esté considerando.</p>
+    </section>
+    <section>
+        <h2>4.2 Distribución binomial</h2>
+        <p>Describe la probabilidad de obtener \( k \) éxitos en \( n \) ensayos independientes, donde cada ensayo tiene una probabilidad fija \( p \) de éxito.</p>
+        <p><strong>Cuándo usarla:</strong> Para eventos con dos resultados posibles y probabilidad constante en cada ensayo.</p>
+    </section>
+    <section>
+        <h2>4.3 Distribución hipergeométrica</h2>
+        <p>Modela la probabilidad de que \( k \) elementos sean de un tipo particular en una muestra aleatoria sin reemplazo de una población finita de tamaño \( N \).</p>
+        <p><strong>Cuándo usarla:</strong> Para calcular la probabilidad de obtener cierto número de elementos de un tipo específico en una muestra finita sin reemplazo.</p>
+    </section>
+    <section>
+        <h2>4.4 Distribución de Poisson</h2>
+        <p>Modela la probabilidad de un número discreto de eventos que ocurren en un intervalo de tiempo o espacio fijo, dado una tasa promedio de ocurrencia conocida.</p>
+        <p><strong>Cuándo usarla:</strong> Para eventos raros con una tasa de ocurrencia constante en un intervalo específico.</p>
+    </section>
+    <section>
+        <h2>4.5 Distribución normal</h2>
+        <p>Describe la distribución de datos en forma de campana, donde la mayoría de los valores se concentran cerca de la media y la dispersión se mide por la desviación estándar.</p>
+        <p><strong>Cuándo usarla:</strong> Para modelar fenómenos naturales y sociales donde los datos tienden a agruparse alrededor de un valor central.</p>
+    </section>
+    <section>
+        <h2>4.6 Distribución T-student</h2>
+        <p>Es utilizada para estimar la media de una población cuando la muestra es pequeña o la desviación estándar es desconocida. Similar a la distribución normal pero más amplia en sus colas.</p>
+        <p><strong>Cuándo usarla:</strong> En muestras pequeñas donde no se conoce la desviación estándar de la población.</p>
+    </section>
+    <section>
+        <h2>4.7 Distribución Chi cuadrada</h2>
+        <p>Se utiliza para comparar las frecuencias observadas con las esperadas en un experimento, evaluando si existe una diferencia significativa entre ambas.</p>
+        <p><strong>Cuándo usarla:</strong> En pruebas de hipótesis sobre la varianza o distribución de una población.</p>
+    </section>
+    <section>
+        <h2>4.8 Distribución F</h2>
+        <p>Es utilizada para comparar la varianza de dos poblaciones, evaluando si son estadísticamente iguales o diferentes.</p>
+        <p><strong>Cuándo usarla:</strong> En análisis de varianza (ANOVA) y en pruebas de hipótesis sobre la igualdad de varianzas.</p>
+    </section>
+    <section>
+        <h2>5 Regresión lineal</h2>
+        <p>Es una técnica estadística que modela la relación entre una variable dependiente y una o más variables independientes, buscando predecir el valor de la variable dependiente basándose en las variables independientes.</p>
+    </section>
+    <section>
+        <h2>5.1 Regresión y correlación</h2>
+        <p>La regresión y la correlación son técnicas estadísticas relacionadas con la relación entre variables.</p>
+    </section>
+    <section>
+        <h3>5.1.1 Diagrama de dispersión</h3>
+        <p>Es una representación gráfica de pares de datos en un plano cartesiano, donde cada punto representa una observación y su posición en los ejes indica los valores de las dos variables.</p>
+    </section>
+    <section>
+        <h3>5.1.2 Regresión lineal simple</h3>
+        <p>Es una técnica estadística que modela la relación lineal entre una variable dependiente (respuesta) y una variable independiente (predictora).</p>
+    </section>
+    <section>
+        <h3>5.1.3 Correlación</h3>
+        <p>Es una medida que describe la fuerza y la dirección de una relación entre dos variables. Puede ser positiva, negativa o neutra.</p>
+    </section>
+    <section>
+        <h3>5.1.4 Determinación y análisis de los coeficientes de correlación y de determinación</h3>
+        <p>Los coeficientes de correlación y de determinación son medidas que indican la fuerza y la naturaleza de la relación entre variables en un modelo de regresión.</p>
+    </section>
+    <section>
+        <h3>5.1.5 Distribución normal bidimensional</h3>
+        <p>Es una distribución de probabilidad conjunta de dos variables aleatorias continuas, donde la densidad de probabilidad se representa en un plano cartesiano.</p>
     </section>
 </article>
 
