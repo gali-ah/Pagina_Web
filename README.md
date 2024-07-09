@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pagina_Web
 
 <article> <section> <h2>1.1 Teoría de decisión</h2> <p>Es la forma en la que se toman decisiones, especialmente cuando hay más de una opción posible. Ayuda a elegir la mejor opción basándose en información y cálculos.</p> </section> <section> <h2>Población</h2> <p>Es el conjunto de todas las cosas o personas que se están estudiando. Puede ser un grupo de personas, animales, objetos, etc.</p> </section> <section> <h2>Muestra aleatoria</h2> <p>Es una parte pequeña de la población que se selecciona de manera imparcial y al azar. Esto permite estudiar la población sin tener que analizar todo el grupo.</p> </section> <section> <h2>Parámetros aleatorios</h2> <p>Son valores que se eligen al azar para representar características de la población. Estos valores pueden cambiar cada vez que se hace un análisis o cálculo.</p> </section> </article>
@@ -47,3 +48,6 @@
         <p>Se encarga de analizar y evaluar las posibilidades que existen de que ocurra un fenómeno en determinadas circunstancias de azar.</p>
     </section>
 </article>
+=======
+
+>>>>>>> 67a9f0727aa7b99b25b0e817b190a78bc9b3acc8
